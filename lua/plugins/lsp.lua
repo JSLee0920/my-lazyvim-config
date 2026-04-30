@@ -3,6 +3,10 @@ return {
     "neovim/nvim-lspconfig",
     opts = {
       servers = {
+        sqls = {},
+        sqruff = {
+          enabled = false,
+        },
         clangd = {
           cmd = {
             "clangd",
